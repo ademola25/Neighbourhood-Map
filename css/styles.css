@@ -1,0 +1,98 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+/* map */
+#map {
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  right: 0px;
+  z-index: -4;
+  bottom: 0px;
+}
+ .content {
+   color: blue;
+ }
+
+.app_name {
+  color: blue;
+}
+
+/* style for search box */
+.search {
+  margin-top: 30px;
+  height: 45px;
+  border: 0;
+  width: 100%;
+}
+
+/* style for foursquare icon*/
+.foursquare_source {
+  position: absolute;
+  bottom: 6px;
+  width: 40%;
+  left: 0;
+  color: blue;
+}
+/* style for foursquare icon*/
+.foursquare {
+    position: absolute;
+    bottom: 2px;
+    width: 60%;
+    right: 0;
+}
+
+/* styling the listed location items */
+.list-group-item {
+    background-color: #908ca9;
+		color:#1e2fbd;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+/* style for the side nav*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+/* styling for mobile responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
