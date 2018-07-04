@@ -4,7 +4,7 @@ var map, openInfoWindow;
 // google map error
 function googleMapError() {
     alert('An error occurred with Google while trying to Load MAP. Please refresh the page');
-};
+}
 
 
 // init google map
@@ -15,7 +15,7 @@ function init(){
     styles: styles
   });
   ko.applyBindings(new ViewModel());
-};
+}
 
 
 /*  Model */
@@ -32,7 +32,7 @@ var Client_Secret = 'IJAFTXRZWXY1ZG33FFVNI5CBNVGRZZBNXPH20TI0ZJI4ZYSM';
 var fSquareUrl = 'https://api.foursquare.com/v2/venues/search?ll='
 var fsurl = fSquareUrl + this.lat + ',' + this.lng
     + '&client_id=' + Client_Id + '&client_secret=' + Client_Secret +
-     '&v=20180630' + '&query=' + this.title;
+     '&v=20180701' + '&query=' + this.title;
  // we uses json to call content from Foursquare thru  foursquare API
 $.getJSON(fsurl).done(function(data) {
     var request = data.response.venues[0];

@@ -41,7 +41,7 @@ Project is released under the [MIT License](http://opensource.org/licenses/MIT).
 ### References:
 [This handle the error section.](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onerror_html)
 
-[KnockoutJS filtering an array.](https://gist.github.com/hyle/1180607)
+[KnockoutJS filtering an array.(The utility function)](https://gist.github.com/hyle/1180607)
 
 [KnockoutJS filtering an array.](https://stackoverflow.com/questions/50295334/knockoutjs-filtering-an-array/50297974#50297974)
 
